@@ -1,0 +1,154 @@
+/* 
+    member__inner 
+    |-- member__title
+    |-- member__form : 로그인
+    |-- member__checkID : 아이디 찾기
+    |-- member__checkPass : 비밀번호 찾기
+*/
+
+/* member__form : 로그인 */
+#main .member__inner {
+    border: 1px solid var(--mainColor);
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 580px;
+    margin-bottom: 50px;
+}
+
+#main p {
+    font-size: 36px;
+    color: var(--mainColor);
+    word-break: keep-all;
+    text-align: center;
+    margin-top: 126px;
+    font-family: var(--fontG);
+}
+
+#main .member__title {
+    justify-content: center;
+    text-align: center;
+    margin-top: 45px;
+}
+
+#main .member__title h2 {
+    font-size: 34px;
+    font-family: var(--fontG);
+    color: var(--mainColor);
+    margin-bottom: 45px;
+    font-weight: bold;
+}
+
+.member__form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.member__form input {
+    width: 500px;
+    border: 2px solid var(--mainColor);
+    border-radius: 5px;
+    padding: 20px 20px;
+    margin-bottom: 8px;
+    background-color: #f3f8fd;
+}
+
+.member__form .form-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.member__form .form-1 ul {
+    display: flex;
+}
+
+.member__form .form-1 li a {
+    display: inline-block;
+    font-size: 12px;
+    margin: 5px;
+    margin-bottom: 45px;
+}
+
+.member__form button {
+    padding: 1.2rem 1.4rem;
+    background-color: var(--mainColor);
+    width: 100%;
+    border-radius: 5px;
+    color: var(--white);
+    font-size: 1rem;
+    margin-bottom: 50px;
+}
+
+/* member__checkID */
+#main .member__inner {
+    border: 1px solid var(--mainColor);
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 580px;
+    margin-bottom: 20px;
+}
+
+#main p {
+    font-size: 36px;
+    color: var(--mainColor);
+    word-break: keep-all;
+    text-align: center;
+    margin-top: 80px;
+    font-family: var(--fontG);
+    font-weight: bold;
+}
+
+#main .member__title {
+    justify-content: center;
+    text-align: center;
+    margin-top: 16px;
+}
+
+#main .member__title h4 {
+    font-size: 16px;
+    font-family: var(--fontN);
+    color: var(--mainColor);
+    margin-bottom: 45px;
+}
+
+.member__checkID {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.member__checkID input {
+    width: 500px;
+    border: 2px solid var(--mainColor);
+    border-radius: 5px;
+    padding: 20px 20px;
+    margin-bottom: 15px;
+    background-color: #f3f8fd;
+}
+
+.member__checkID {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.member__checkID button {
+    padding: 15px 50px;
+    background-color: var(--mainColor);
+    border-radius: 150px;
+    color: var(--white);
+    font-size: 1rem;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+#main .member__bottext a {
+    margin-top: 5px;
+    text-align: center;
+    color: var(--black700);
+    display: block;
+    margin: 0 auto;
+    text-decoration: underline;
+}
+
+/* member__checkPass */
