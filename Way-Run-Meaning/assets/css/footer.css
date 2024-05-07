@@ -6,17 +6,6 @@
 
 .footer1 {}
 
-.footer1 img {
-    width: 120px;
-    height: 60px;
-    /* position: absolute;
-    left: 50%;
-    bottom: 50%;
-    transform: translate(-50%, -50%); */
-    margin-bottom: 40px;
-    margin-left: 45%;
-}
-
 .footer2 {
     margin-bottom: 40px;
 }
@@ -28,6 +17,7 @@
     height: 100%;
     padding: 0;
     margin: 0;
+    margin-top: 200px;
 }
 
 .footer2 ul li {

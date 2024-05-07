@@ -6,6 +6,7 @@ body {
 /* wrap */
 #wrap {
     width: 100%;
+    background-color: #FAF1E7;
 }
 
 #wrap #header {

@@ -63,25 +63,54 @@
         <!-- //header -->
 
         <div class="body">
-            <div class="log">
+            <div class="veen">
+                <div class="rgstr1-btn splits">
+                    <p>아이디가<br>
+                        기억나지 않으시나요?</p>
+                    <button>Register</button>
+                </div>
+                <div class="psw-btn splits">
+                    <p>비밀번호가<br>
+                        기억나지 않으시나요?</p>
+                    <button>Register</button>
+                </div>
                 <div class="wrapper">
-                    <form id="login" tabindex="500">
-                        <form id="login" tabindex="500">
-                            <h3>로그인</h3>
-                            <div class="mail">
-                                <input type="mail" name="">
-                                <label>Mail</label>
-                            </div>
-                            <div class="passwd">
-                                <input type="password" name="">
-                                <label>Password</label>
-                            </div>
-                            <div class="submit">
-                                <button class="dark">로그인</button>
-                            </div>
-                        </form>
+                    <form id="register1" tabindex="500">
+                        <h3>아이디 찾기</h3>
+                        <div class="name">
+                            <input type="text" name="">
+                            <label>Nickname</label>
+                        </div>
+                        <div class="mail">
+                            <input type="mail" name="">
+                            <label>Mail</label>
+                        </div>
+                        <div class="uid">
+                            <input type="text" name="">
+                            <label>User Name</label>
+                        </div>
+                        <div class="passwd">
+                            <input type="password" name="">
+                            <label>Password</label>
+                        </div>
+                        <div class="submit">
+                            <button class="dark">확인</button>
+                        </div>
                     </form>
-
+                    <form id="psw" tabindex="502">
+                        <h3>비밀번호 찾기</h3>
+                        <div class="mail">
+                            <input type="mail" name="">
+                            <label>Mail</label>
+                        </div>
+                        <div class="uid">
+                            <input type="text" name="">
+                            <label>User Name</label>
+                        </div>
+                        <div class="submit">
+                            <button class="dark">확인</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -149,17 +178,17 @@
 
     <script>
         $(document).ready(function () {
-            $(".log .rgstr-btn button").click(function () {
-                $('.log .wrapper').addClass('move');
+            $(".veen .psw-btn button").click(function () {
+                $('.veen .wrapper').addClass('move');
                 $('.body').css('background', '#e0b722');
-                $(".log .login-btn button").removeClass('active');
+                $(".veen .rgstr1-btn button").removeClass('active');
                 $(this).addClass('active');
 
             });
-            $(".log .login-btn button").click(function () {
-                $('.log .wrapper').removeClass('move');
+            $(".veen .rgstr1-btn button").click(function () {
+                $('.veen .wrapper').removeClass('move');
                 $('.body').css('background', '#ff4931');
-                $(".log .rgstr-btn button").removeClass('active');
+                $(".veen .psw-btn button").removeClass('active');
                 $(this).addClass('active');
             });
         });
