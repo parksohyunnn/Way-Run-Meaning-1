@@ -106,5 +106,9 @@ http://marathon.pe.kr/index_fleemarket.html
 # 🎨 디자인 참고 레퍼런스
 - 참고했던 디자인 웹사이트 / 폰트 / 컬러 그런거 다 때려박으면 될 듯
 
+# 💦 조별 스토리보드
+- ![image](https://github.com/HwangInJi/Way-Run-Meaning/assets/163365140/be843834-251d-46f7-b795-cb96434efad6)
+
+
 
   
